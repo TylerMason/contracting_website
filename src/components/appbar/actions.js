@@ -3,7 +3,7 @@ import { MyList } from "../../styles/appbar";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"
 import FavoriteIcon from "@mui/icons-material/Favorite"
 import PersonIcon from "@mui/icons-material/Person"
-import { ActionIconsContainerDesktop, ActionIconsContainerMobile, AppbarContainer, AppbarHeader, MyList } from "../../styles/appbar";
+import { ActionIconsContainerDesktop, ActionIconsContainerMobile, AppbarContainer, AppbarHeader } from "../../styles/appbar";
 
 
 
