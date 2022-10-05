@@ -1,9 +1,12 @@
 
 import { ThemeProvider } from '@mui/system';
-import { Button, Container } from '@mui/material';
+import { Container } from '@mui/material';
 import { useEffect } from 'react';
 import theme from "./styles/theme"
 import Appbar from './components/appbar';
+import Banner from './components/banner';
+import Promotions from './components/promotions';
+import Products from './components/products';
 
 function App() {
 
@@ -22,23 +25,23 @@ function App() {
         background: 'afff'
       }}
     >
-      {
+      
         
         <Appbar />
+        <Banner/>
+        <Promotions/>
+        <Products/>
+      {
         /*
-        Banner
-        Promotions
-        title
-        Products
+        
+        
         footer
         searchbox
         appdrawer
 
       */
       }
-      <Button variant='contained'>
-        Test
-      </Button>
+      
     </Container>
   </ThemeProvider>
       
